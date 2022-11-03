@@ -1,0 +1,13 @@
+<app-dashboard></app-dashboard>
+<div class="body">
+   <button (click)="nextPage()" class="btn btn-primary">Siguiente</button>
+    <div class="flex-container">
+         <div *ngFor="let personaje of personajes" class="card">
+            <h1>{{personaje.name}}</h1>
+            <img src={{personaje.image}} alt="">
+            <p>{{personaje.species}}</p>
+            <p>{{personaje.status}}</p>
+         </div>
+    </div>
+    <button (click)="nextPage()" class="btn btn-primary">Siguiente</button>
+</div>

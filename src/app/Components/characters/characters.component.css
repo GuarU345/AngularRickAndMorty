@@ -1,0 +1,26 @@
+.body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.card{
+    margin: 5px;
+    width: 500px;
+    text-align: center;
+    background-color: rgb(218, 217, 217);
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+}
+button{
+   margin: 10px;
+}

@@ -1,0 +1,18 @@
+.body{
+background-color: black;
+margin: 0;
+padding: 0;
+display: flex;
+height: 100vh;
+min-height: 100vh;
+flex-direction: column;
+flex-grow: 1;
+align-items: center;
+justify-content: center;
+}
+.title{
+    color: white;
+    font-size: 150px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
